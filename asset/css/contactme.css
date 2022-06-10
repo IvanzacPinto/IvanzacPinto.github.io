@@ -1,0 +1,135 @@
+body {
+    background: radial-gradient(circle, rgba(29,155,181,1) 0%, rgba(65,9,121,1) 71%, rgba(0,0,0,1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 25px;
+}
+
+#header3 {
+    text-align: center;
+}
+
+#headline {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    text-align: center;
+}
+
+#mainheader {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+from {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+#pagesbutton {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.iconbutton {
+    border-style: groove;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icons {
+
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.socialicon {
+    width: 50px;
+    border-radius: 25px;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+}
+
+#contactform {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+}
+
+textarea {
+    font-size: 15;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 50px;
+}
+
+#functionbutton {
+    text-align: right;
+}
+
+/* footer */
+#footer {
+    font-size: 15px;
+    color: #fff;
+}
+
+.footerbottom {
+    margin: 2%;
+    text-align: center;
+}
+
+/* Contact */
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul.contact {
+    list-style: none;
+    padding: 0;
+}
+
+    ul.contact > li {
+        padding: 0;
+        margin: 1.5em 0 0 0;
+    }
+
+        ul.contact > li:first-child {
+            margin-top: 0;
+        }
