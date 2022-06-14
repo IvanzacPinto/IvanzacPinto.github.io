@@ -207,6 +207,10 @@ a:hover{
         width: 80%;
     }
 
+    .image-profile {
+        float: none;
+    }
+
     .para1 {
         width: 80%;
     }
