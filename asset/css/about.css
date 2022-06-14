@@ -47,12 +47,6 @@ img {
     margin: 2%;
 }
 
-@media screen and (max-width: 600px) {
-    #extable {
-        width: 100%;
-    }
-}
-
 #icon-placing {
     text-align: center;
 }
@@ -199,6 +193,16 @@ a:hover{
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
       }
+}
+
+@media screen and (max-width: 600px) {
+    #extable {
+        width: 80%;
+    }
+
+    #experiencecontainer {
+        display: block;
+    }
 }
 
 /* footer */
