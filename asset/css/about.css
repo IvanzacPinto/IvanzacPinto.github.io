@@ -203,6 +203,10 @@ a:hover{
     #experiencecontainer {
         display: block;
     }
+
+    #header2 {
+        width: 80%;
+    }
 }
 
 /* footer */
