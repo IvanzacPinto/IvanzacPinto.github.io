@@ -47,6 +47,12 @@ img {
     margin: 2%;
 }
 
+@media screen and (max-width: 600px) {
+    #extable {
+        width: 100%;
+    }
+}
+
 #icon-placing {
     text-align: center;
 }
