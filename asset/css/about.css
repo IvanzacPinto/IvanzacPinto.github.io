@@ -201,10 +201,16 @@ a:hover{
 
     #experiencecontainer {
         display: block;
+        margin: 20px;
+        margin-left: 50px;
+    }
+
+    #container-profolio {
+        text-align: center;
     }
 
     #header2 {
-        width: 80%;
+        text-align: center;
     }
 
     .image-profile {
@@ -213,11 +219,11 @@ a:hover{
     }
 
     .para1 {
-        width: 80%;
+       text-align: center;
     }
 
     .para2 {
-        width: 80%;
+        text-align: center;
     }
 }
 
