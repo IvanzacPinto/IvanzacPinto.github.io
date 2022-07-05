@@ -4,11 +4,53 @@ body {
     margin: 0px;
     font-size: 25px;
 }
+body::-webkit-scrollbar {
+    width: 10px;
+}
 
-img {
+body::-webkit-scrollbar-track {
+    background:transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:radial-gradient(circle, rgba(65,9,121,1) 71%, rgba(0,0,0,1) 100%);
+}
+
+span {
+    font-size: 30px;
+}
+
+#softwarecontainer {
+    margin: 10px;
+    padding: 5px;
+}
+
+.softwareT {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px;
+}
+
+.softwareimg {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+#logos {
+    text-align: center;
+}
+
+.imageradius {
     width: 300px;
     border-radius: 150px;
 }
+
 
 .image-profile {
     padding: 10px;
@@ -22,14 +64,14 @@ img {
 }
 
 .icon-portfolio {
-    width: 200px;
-    border-radius: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 .icon-portfolio2 {
     background-color: #B8B8B6;
-    width: 200px;
-    border-radius: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 .iconbutton {
@@ -84,6 +126,7 @@ h1{
     margin: 0px;
     padding: 0px;
     height: 30px;
+    font-size: 50px;
 }
 
 
@@ -101,7 +144,7 @@ h1{
 }
 
 #experiencecontainer {
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     display: flex;
 }
@@ -132,8 +175,10 @@ li {
 #header2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    margin: 10px;
-    padding: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2px;
+    padding: 2px;
 }
 
 #lifecontentheader {
