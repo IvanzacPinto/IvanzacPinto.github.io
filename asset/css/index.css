@@ -51,3 +51,10 @@ to {
     align-items: center;
     justify-content: center;
 }
+
+.btn {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {opacity: 1}
