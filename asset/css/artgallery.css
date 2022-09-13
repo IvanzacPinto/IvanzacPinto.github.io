@@ -1,42 +1,64 @@
 body {
-    background: radial-gradient(circle, rgba(29,155,181,1) 0%, rgba(65,9,121,1) 71%, rgba(0,0,0,1) 100%);
-    font-family: 'Times New Roman', Times, serif;
+    background: #6F47E2 url("/image/BannerArtGallery.png") no-repeat right top;
+    background-position-x: 100%;
+  background-position-y: 10.6%;
+    background-size: 60%;
+    font-family: sans-serif;
     margin: 0px;
     font-size: 25px;
 }
 
-h1 {
-    text-align: center;
+
+.div01{
+
+    display: flex;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #fff;
 }
 
-#pagesbutton {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+.ipintoLogo {
+    width: 150px;
+    height: 150px;
+}
+
+.tabcontainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 800px;
+}
+
+.tabhead {
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
     font-size: 20px;
+    line-height: 24.2px;
+   margin-left: 50px;
 }
 
-.iconbutton {
-    border-style: groove;
-    border-radius: 10px;
-    padding: 5px;
+.title-container01 {
+    margin-left: 50px;
 }
 
-#artheader {
-        font-size: 80px;
-        color: #fff;
-        text-align: center;
-        animation: glow 1s ease-in-out infinite alternate;
+.title01 {
+    margin-top: 117px;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
 }
-@keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
-  
+
+.div02{
+    background: #fff;
+    margin-top: 106px;
+    height: 1150px;
+}
+
+
 
 #headerartwork {
     font-family: Arial, Helvetica, sans-serif;
@@ -53,33 +75,28 @@ h1 {
 }
 
 #Ximage {
+    padding-top: 50px;
     text-align: center;
 }
 
 .image {
-    width: 200px;
+    width: 250px;
     border-radius: 50px;
 }
 
 .image2 {
     background-color: #B8B8B6;
-    width: 200px;
+    width: 250px;
     border-radius: 50px;
 }
 
 a {
-    color: aqua;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover{
-    color: #fff;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-      }
+    color: #EDB518;
 }
 
 /* footer */
