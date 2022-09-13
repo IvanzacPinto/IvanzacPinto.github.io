@@ -1,60 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
 body {
-    background: radial-gradient(circle, rgba(29,155,181,1) 0%, rgba(65,9,121,1) 71%, rgba(0,0,0,1) 100%);
+    background: #6F47E2 url("/image/isometric_img.png") no-repeat right top;
+    background-position-x: 100%;
+    background-size: 60%;
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: 25px;
 }
 
-#image-profile {
-    text-align: center;
-}
-
-img{
-    width: 300px;
-    border-radius: 150px;  
-}
-
-.Welcome {
-    font-size: 80px;
-    color: #fff;
-    text-align: center;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-@keyframes glow {
-from {
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-}
-
-to {
-  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-}
-}
-
-.para-main {
-    
-    color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.container {
-    width: 100%;
-    min-height: 100vh;
-    padding: 5%;
-    background-position: center;
-    background-size: cover;
+.div01{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #fff;
 }
 
-.btn {
-    opacity: 0.6;
-    transition: 0.3s;
-  }
-  
-  .btn:hover {opacity: 1}
+
+.tabcontainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 800px;
+}
+
+.tabhead {
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+   margin-left: 50px;
+}
+
+.title-container01 {
+    margin-left: 50px;
+}
+
+.title01 {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.title01-a{
+    margin-top: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.ipintoLogo {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EDB518;
+}
+
