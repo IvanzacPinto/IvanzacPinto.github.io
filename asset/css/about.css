@@ -1,274 +1,69 @@
 body {
-    background: radial-gradient(circle, rgba(29,155,181,1) 0%, rgba(65,9,121,1) 71%, rgba(0,0,0,1) 100%);
-    font-family: 'Times New Roman', Times, serif;
+    background: #6F47E2 url("/image/isometric_img.png") no-repeat right top;
+    background-position-x: 100%;
+    background-size: 60%;
+    font-family: sans-serif;
     margin: 0px;
     font-size: 25px;
 }
 
-
-span {
-    font-size: 30px;
-}
-
-#softwarecontainer {
-    margin: 10px;
-    padding: 5px;
-}
-
-.softwareT {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 2px;
-    padding: 2px;
-}
-
-.softwareimg {
-    height: 50px;
-    width: 50px;
-    border-style: none;
-    margin: 10px;
-    padding: 5px;
-}
-
-#logos {
-    text-align: center;
-}
-
-.imageradius {
-    width: 300px;
-    border-radius: 150px;
-}
-
-
-.image-profile {
-    padding: 10px;
-    margin: 5px;
-    float: right;
-}
-
-.icon {
-    width: 50px;
-    border-radius: 25px;
-}
-
-.icon-portfolio {
-    width: 100px;
-    border-radius: 50px;
-}
-
-.icon-portfolio2 {
-    background-color: #B8B8B6;
-    width: 100px;
-    border-radius: 50px;
-}
-
-.iconbutton {
-    border-style: groove;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-
-#extable {
-    width: 20%;
-    border-style: groove;
-    border-radius: 10px;
-    padding: 5px; 
-    margin: 2%;
-}
-
-#icon-placing {
-    text-align: center;
-}
-
-
-h1{
-    text-align: center;
-}
-
-
-#pagesbutton {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-
-#mainheader {
-        font-size: 80px;
-        color: #fff;
-        text-align: center;
-        animation: glow 1s ease-in-out infinite alternate;
-}
-@keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
-  
-#mainheader-portfolio {
-    color: #fff;
-    margin: 0px;
-    padding: 0px;
-    height: 30px;
-    font-size: 50px;
-}
-
-
-#container-profolio {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    padding: 5px;
-
-}
-
-#lifecontainer {
-    margin: 10px;
-    padding: 5px;
-
-}
-
-#experiencecontainer {
-    margin: 5px;
-    padding: 5px;
+.div01{
     display: flex;
-}
-
-.experientitle {
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: #fff;
-}
-
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: aqua;
-}
-
-.lifequotes {
-    font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
-    font-weight: bold;
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    text-align: center;
-}
-
-#header2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    font-weight: bold;
-    font-size: 30px;
-    margin: 2px;
-    padding: 2px;
-}
-
-#lifecontentheader {
-    margin-left: 10px;
+    margin: 10px;
     margin-top: 50px;
-    padding: 5px;
-    
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #fff;
 }
 
-.para-name {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+
+.tabcontainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 800px;
+}
+
+.tabhead {
+    margin-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
     font-size: 20px;
-    font-weight: bold;
+    line-height: 24.2px;
+   margin-left: 50px;
 }
 
-.para-description {
-    color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+.title-container01 {
+    margin-left: 50px;
 }
 
-.portfolio-description {
-    color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+.title01 {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
 }
 
-.para1{
-    color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    padding: 5px;
-    font-size: 15px;
+.title01-a{
+    margin-top: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
 }
 
-.para2 {
-    color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 10px;
-    padding: 5px;
-    font-size: 20px;
+.ipintoLogo {
+    width: 150px;
+    height: 150px;
 }
 
 a {
-    color: aqua;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover{
-    color: #fff;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-      }
-}
-@media screen and (max-width: 600px) {
-    #extable {
-        width: 80%;
-    }
-
-    #experiencecontainer {
-        display: block;
-        margin: 20px;
-        margin-left: 50px;
-    }
-
-    #container-profolio {
-        text-align: center;
-    }
-
-    #header2 {
-        text-align: center;
-    }
-
-    .image-profile {
-        float: none;
-        text-align: center;
-    }
-
-    .para1 {
-       text-align: center;
-    }
-
-    .para2 {
-        text-align: center;
-    }
+    color: #EDB518;
 }
 
-/* footer */
-#footer {
-    font-size: 15px;
-    color: #fff;
-}
-
-.footerbottom {
-    margin: 2%;
-    text-align: center;
-}
