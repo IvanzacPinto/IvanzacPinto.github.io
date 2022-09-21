@@ -241,6 +241,10 @@ ul.contact {
                 width: 100px;
                 height: 100px;
             }
+            
+                        .tabhead{
+                margin: unset;
+            }
         
             .toggle-button {
                 display: flex;
