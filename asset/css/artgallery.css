@@ -177,6 +177,17 @@ a:hover{
         width: 100px;
         height: 100px;
     }
+    
+    .tabcontainer01{
+        margin: unset;
+    }
+
+    .tabhead{
+        margin: unset;
+    }
+    .title01 {
+        text-align: center;
+    }
 
     .toggle-button {
         display: flex;
