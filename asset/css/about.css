@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #6F47E2 url("/image/about_us_banner.png") no-repeat right top;
     background-position-x: 100%;
@@ -7,41 +11,66 @@ body {
     margin: 0px;
     font-size: 25px;
 }
-body::-webkit-scrollbar {
-    width: 10px;
-}
 
-body::-webkit-scrollbar-track {
-    background:transparent;
-}
 
-body::-webkit-scrollbar-thumb{
-    background:radial-gradient(circle, rgba(65,9,121,1) 71%, rgba(0,0,0,1) 100%);
-}
-
-.div01{
+.navbar{
     display: flex;
-    margin: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
+.brand-title {
+    margin: .5rem;
+}
 
-.tabcontainer {
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    padding-left: 800px;
 }
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links a:hover {
+    color: #EDB518;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
 
 .tabhead {
-    margin-top: 50px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 24.2px;
-   margin-left: 50px;
 }
 
 .title-container01 {
@@ -124,8 +153,6 @@ span {
 }
 
 .iconbutton {
-    /* border-style: groove; */
-    /* border-radius: 10px; */
     padding-top: 50px;
     padding: 50px;
 }
@@ -168,16 +195,6 @@ h1{
         text-align: center;
         animation: glow 1s ease-in-out infinite alternate;
 }
-/* @keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
-   */
 #mainheader-portfolio {
     color: #fff;
     margin: 0px;
@@ -291,6 +308,25 @@ a:hover{
     color: #EDB518;
 }
 @media screen and (max-width: 600px) {
+
+    body {
+        background: #6F47E2 url("/image/about_us_banner.png") no-repeat right top;
+        background-position-x: 100%;
+      background-position-y: 170%;
+        background-size: 60%;
+        font-family: sans-serif;
+        margin: 0px;
+        font-size: 25px;
+    }
+
+    .title01 {
+        color: #fff;
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        line-height: 80px;
+        font-weight: 700;
+    }
     #extable {
         width: 80%;
     }
@@ -332,4 +368,55 @@ a:hover{
 .footerbottom {
     margin: 2%;
     text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        background: #6F47E2;
+    }
+
+    .ipintoLogo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title01-a {
+        text-align: center;
+    }
+
+    .toggle-button {
+        display: flex;
+        margin-top: 25px;
+        width: 50px;
+        height: 41px;
+    
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
