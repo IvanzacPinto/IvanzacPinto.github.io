@@ -135,6 +135,10 @@ a:hover{
         width: 100px;
         height: 100px;
     }
+    
+                .tabhead{
+                margin: unset;
+            }
 
     .title01 {
         text-align: center;
