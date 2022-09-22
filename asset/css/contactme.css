@@ -133,7 +133,7 @@ body {
 
 .icon-button {
     display: flex;
-    margin-left: 700px;
+    justify-content: center;
     margin-top: 50px;
 }
 
