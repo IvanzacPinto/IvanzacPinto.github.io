@@ -115,6 +115,7 @@ body {
 .card-container-01{
     padding: 80px;
     display: flex;
+    justify-content: center;
     
 }
 
