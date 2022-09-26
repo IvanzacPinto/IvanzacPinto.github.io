@@ -63,15 +63,6 @@ body {
 
 
 
-/* .div01{
-
-    display: flex;
-    margin: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    color: #fff;
-} */
 
 .ipintoLogo {
     width: 150px;
@@ -108,7 +99,7 @@ body {
 
 .div02{
     background: #fff;
-    margin-top: 340px;
+    margin-top: 9rem;
     height: 650px;
 }
 
